@@ -4,7 +4,7 @@ document.getElementById("loginbutton").addEventListener("click", popup);
 
 function popup() {
 
-    alert("hayre ki kopal amar moner manosh pailam na ");
+    alert("Do you want to logout!!? ");
 }
 
 
@@ -19,7 +19,7 @@ document.getElementById("tamil").addEventListener("click", addTamil);
 
 
 (function () {
-    document.getElementById("container").innerHTML = ` <!-- the cols in this div change the number of cards per row depending on screen size and the mb-4 adds space below cards if they spill over into the next row-->
+    document.getElementById("container").innerHTML = ` 
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div class="card">
                         <video poster="../Poster/Monster Hunter.jpeg" style="height:auto;width:100%" controls>
@@ -233,7 +233,7 @@ document.getElementById("tamil").addEventListener("click", addTamil);
 
 function addHollywood()
 {
-    document.getElementById("container").innerHTML = ` <!-- the cols in this div change the number of cards per row depending on screen size and the mb-4 adds space below cards if they spill over into the next row-->
+    document.getElementById("container").innerHTML = ` 
     <div class="col-12 col-md-6 col-lg-4 mb-4">
     <div class="card">
         <video poster="Poster/Monster Hunter.jpeg" style="height:auto;width:100%" controls>

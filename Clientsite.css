@@ -8,6 +8,11 @@ body {
 
 
 }
+#name{
+
+    color: aliceblue;
+    background: rgb(180, 12, 12);
+}
 
 .logo {
    
@@ -99,9 +104,16 @@ body {
 
 
 .card {
+  
     background-color: rgb(52,52,52);
-    color: whitesmoke;
+    color: white;
+    transition: transform 100ms ease-in;
 }
+.card:hover{
+
+    transform: scale(1.07);
+}
+
 #search{
     padding-left: 200px;
     
